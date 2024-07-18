@@ -1,0 +1,32 @@
+/* src/ActivityCard.css */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin: 16px;
+    max-width: 400px;
+    background-color: #fff;
+  }
+  
+  .card-title {
+    font-size: 1.5em;
+    margin-bottom: 16px;
+    color: #333;
+  }
+  
+  .activity-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .activity-item {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+    color: #555;
+  }
+  
+  .activity-item:last-child {
+    border-bottom: none;
+  }
+  
